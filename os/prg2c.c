@@ -44,3 +44,4 @@ void main()
 	printf("\nAVERAGE WAITING TIME IS--%f\n",(wtavg/n));
 	printf("\nAVERAGE TURNAROUND TIME IS--%f\n",(tatavg/n));
 }
+//hii
