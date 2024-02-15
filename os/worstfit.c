@@ -36,7 +36,7 @@ void main() {
     printf("\n%d\t\t%d\t\t%d\t\t%d\t\t%d\n", i, f[i], ff[i], b[ff[i]], frag[i]);
 }
 /*
-        Memory Management Scheme - First Fit
+        Memory Management Scheme - Worst Fit
 Enter the number of blocks:3
 Enter the number of files:3
 
