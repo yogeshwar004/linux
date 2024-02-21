@@ -1,2 +1,5 @@
 n=int(input("Enter the n:"))
 print('n=',n)
+print("What is your name:")
+y=input()
+print('string=',y)
