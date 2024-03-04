@@ -1,26 +1,24 @@
 #include<stdio.h>
 #include<stdlib.h>
-#include<sys/wait.h>
-#include<sys/types.h>
 #include<unistd.h>
 int main()
 {
-    pid_t pid;
-    pid=fork();
+    pid_t pid=fork();
     if(pid<0)
     {
-        printf("Fork failed\n");
-        exit(1);
+        printf("Fork Failed");
+        exit(0);
     }
     else if(pid==0)
     {
-        printf("Child process\n");
+        printf("Child process");
         execlp("ls","ls","-l",NULL);
+        exit(0);
     }
     else
     {
         wait(NULL);
-        printf("Child Complete\n");
+        printf("Child Complete");
         exit(0);
     }
 }
