@@ -24,4 +24,8 @@ void main(int argc, char** argv) {
     glutDisplayFunc(display);
     myinit();
     glutMainLoop();
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 70800e275f94eeba904d71c6bc23a6119652bba3
